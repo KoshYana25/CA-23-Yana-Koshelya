@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/style_find_state.css">
+    <title>Твій простір</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row header__inner">
+                <div class="col-md-1 header__logo">
+                    <img class="logo__image" src="/images/logo.png" alt="Твій простір">
+                    <p class="logo__title">ТвійПростір</p>
+                    <div class="header__burger">
+                        <span></span>
+                </div>
+                </div>  
+                <nav class="col-xl-6 col-md-8 header__menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="../index.html" class="menu__link">Головна</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Знайти житло</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="./sell_estate.html" class="menu__link">Продати житло</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="./about.html" class="menu__link">Про нас</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>  
+        </div>
+    </header>
+    <div class="content">
+        
+        <section class="estates">
+            <div class="container">
+                <h2 class="estates__header">Перелік майна</h2>
+
+                <div class="find__estate">
+                    <form class="find__estate_form">
+                            <div class="input-icons">
+                                <div class="inpu__icon">
+                                    <i class="fa fa-map-marker icon"></i>
+                                    <input class="input-field" type="text" placeholder="Вибери місто">
+                                </div>  
+                                
+                                <div>
+                                    <i class="fa fa-map-marker icon"></i>
+                                    <input class="input-field" type="text" placeholder="Вибери вулицю">  
+                                </div>
+
+                                <div>
+                                    <i class="fa fa-home icon"></i>
+                                    <input class="input-field" type="text" placeholder="Вибери тип майна">  
+                                </div>
+
+                                <button class="find__estate_btn">Знайти</button>
+                            </div>
+                    </form>
+                </div>
+
+                <div class="estates__items">
+                    <div class="estates__item">
+                        <div class="estate__image"></div>
+                        <div class="estate__details">
+                            <div class="estate__details_info">
+                                <h4>м. Львів, вул. пасічна, 22</h4>
+                                <p class="estate__type">Квартира</p>
+                                <p class="estate__price">20 000 грн/місяць</p>
+                            </div>
+                            <div class="estate__info">
+                                <div class="estate__info_item info_item1">
+                                    <img class="estate__info_img" src="../images/bed.svg" alt="bed">
+                                    <span class="estate__info_item_text">2</span>
+                                </div>
+                                <div class="estate__info_item info_item2">
+                                    <img src="../images/shower.svg" alt="shower">
+                                    <span class="estate__info_item_text">1</span>
+                                </div>
+                                <div class="estate__info_item info_item3">
+                                    <img src="../images/size.svg" alt="size">
+                                    <span class="estate__info_item_text">2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="estates__item">
+                        <div class="estate__image estate__image2"></div>
+                        <div class="estate__details">
+                            <div class="estate__details_info">
+                                <h4>м. Львів, вул. залізнична, 35</h4>
+                                <p class="estate__type">Приватний будинок</p>
+                                <p class="estate__price">30 000 грн/місяць</p>
+                            </div>
+                            <div class="estate__info">
+                                <div class="estate__info_item info_item1">
+                                    <img class="estate__info_img" src="../images/bed.svg" alt="bed">
+                                    <span class="estate__info_item_text">4</span>
+                                </div>
+                                <div class="estate__info_item info_item2">
+                                    <img src="../images/shower.svg" alt="shower">
+                                    <span class="estate__info_item_text">2</span>
+                                </div>
+                                <div class="estate__info_item info_item3">
+                                    <img src="../images/size.svg" alt="size">
+                                    <span class="estate__info_item_text">2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="estates__item">
+                        <div class="estate__image estate__image3"></div>
+                        <div class="estate__details">
+                            <div class="estate__details_info">
+                                <h4>м. львів, вул. Наукова, 88б</h4>
+                                <p class="estate__type">Квартира</p>
+                                <p class="estate__price">20 000 грн/місяць</p>
+                            </div>
+                            <div class="estate__info">
+                                <div class="estate__info_item info_item1">
+                                    <img class="estate__info_img" src="../images/bed.svg" alt="bed">
+                                    <span class="estate__info_item_text">2</span>
+                                </div>
+                                <div class="estate__info_item info_item2">
+                                    <img src="../images/shower.svg" alt="shower">
+                                    <span class="estate__info_item_text">1</span>
+                                </div>
+                                <div class="estate__info_item info_item3">
+                                    <img src="../images/size.svg" alt="size">
+                                    <span class="estate__info_item_text">2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="estates__item">
+                        <div class="estate__image estate__image4"></div>
+                        <div class="estate__details">
+                            <div class="estate__details_info">
+                                <h4>м. Київ, вул. Л.Українки, 22</h4>
+                                <p class="estate__type">Квартира</p>
+                                <p class="estate__price">17 000 грн/місяць</p>
+                            </div>
+                            <div class="estate__info">
+                                <div class="estate__info_item info_item1">
+                                    <img class="estate__info_img" src="../images/bed.svg" alt="bed">
+                                    <span class="estate__info_item_text">2</span>
+                                </div>
+                                <div class="estate__info_item info_item2">
+                                    <img src="../images/shower.svg" alt="shower">
+                                    <span class="estate__info_item_text">1</span>
+                                </div>
+                                <div class="estate__info_item info_item3">
+                                    <img src="../images/size.svg" alt="size">
+                                    <span class="estate__info_item_text">2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="estates__item">
+                        <div class="estate__image estate__image5"></div>
+                        <div class="estate__details">
+                            <div class="estate__details_info">
+                                <h4>м. Ужгород, вул. Мазепи, 41</h4>
+                                <p class="estate__type">Квартира</p>
+                                <p class="estate__price">20 000 грн/місяць</p>
+                            </div>
+                            <div class="estate__info">
+                                <div class="estate__info_item info_item1">
+                                    <img class="estate__info_img" src="../images/bed.svg" alt="bed">
+                                    <span class="estate__info_item_text">2</span>
+                                </div>
+                                <div class="estate__info_item info_item2">
+                                    <img src="../images/shower.svg" alt="shower">
+                                    <span class="estate__info_item_text">1</span>
+                                </div>
+                                <div class="estate__info_item info_item3">
+                                    <img src="../images/size.svg" alt="size">
+                                    <span class="estate__info_item_text">2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="estates__item">
+                        <div class="estate__image estate__image6"></div>
+                        <div class="estate__details">
+                            <div class="estate__details_info">
+                                <h4>м.Київ, вул.М.Залізняка, 29</h4>
+                                <p class="estate__type">Квартира</p>
+                                <p class="estate__price">15 000 грн/місяць</p>
+                            </div>
+                            <div class="estate__info">
+                                <div class="estate__info_item info_item1">
+                                    <img class="estate__info_img" src="../images/bed.svg" alt="bed">
+                                    <span class="estate__info_item_text">2</span>
+                                </div>
+                                <div class="estate__info_item info_item2">
+                                    <img src="../images/shower.svg" alt="shower">
+                                    <span class="estate__info_item_text">1</span>
+                                </div>
+                                <div class="estate__info_item info_item3">
+                                    <img src="../images/size.svg" alt="size">
+                                    <span class="estate__info_item_text">2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="estates__item">
+                        <div class="estate__image"></div>
+                        <div class="estate__details">
+                            <div class="estate__details_info">
+                                <h4>м. Львів, вул. пасічна, 22</h4>
+                                <p class="estate__type">Квартира</p>
+                                <p class="estate__price">20 000 грн/місяць</p>
+                            </div>
+                            <div class="estate__info">
+                                <div class="estate__info_item info_item1">
+                                    <img class="estate__info_img" src="../images/bed.svg" alt="bed">
+                                    <span class="estate__info_item_text">2</span>
+                                </div>
+                                <div class="estate__info_item info_item2">
+                                    <img src="../images/shower.svg" alt="shower">
+                                    <span class="estate__info_item_text">1</span>
+                                </div>
+                                <div class="estate__info_item info_item3">
+                                    <img src="../images/size.svg" alt="size">
+                                    <span class="estate__info_item_text">2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="estates__item">
+                        <div class="estate__image estate__image2"></div>
+                        <div class="estate__details">
+                            <div class="estate__details_info">
+                                <h4>м. Львів, вул. залізнична, 35</h4>
+                                <p class="estate__type">Приватний будинок</p>
+                                <p class="estate__price">30 000 грн/місяць</p>
+                            </div>
+                            <div class="estate__info">
+                                <div class="estate__info_item info_item1">
+                                    <img class="estate__info_img" src="../images/bed.svg" alt="bed">
+                                    <span class="estate__info_item_text">4</span>
+                                </div>
+                                <div class="estate__info_item info_item2">
+                                    <img src="../images/shower.svg" alt="shower">
+                                    <span class="estate__info_item_text">2</span>
+                                </div>
+                                <div class="estate__info_item info_item3">
+                                    <img src="../images/size.svg" alt="size">
+                                    <span class="estate__info_item_text">2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="estates__item">
+                        <div class="estate__image estate__image3"></div>
+                        <div class="estate__details">
+                            <div class="estate__details_info">
+                                <h4>м. львів, вул. Наукова, 88б</h4>
+                                <p class="estate__type">Квартира</p>
+                                <p class="estate__price">20 000 грн/місяць</p>
+                            </div>
+                            <div class="estate__info">
+                                <div class="estate__info_item info_item1">
+                                    <img class="estate__info_img" src="../images/bed.svg" alt="bed">
+                                    <span class="estate__info_item_text">2</span>
+                                </div>
+                                <div class="estate__info_item info_item2">
+                                    <img src="../images/shower.svg" alt="shower">
+                                    <span class="estate__info_item_text">1</span>
+                                </div>
+                                <div class="estate__info_item info_item3">
+                                    <img src="../images/size.svg" alt="size">
+                                    <span class="estate__info_item_text">2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="estates__item">
+                        <div class="estate__image estate__image4"></div>
+                        <div class="estate__details">
+                            <div class="estate__details_info">
+                                <h4>м. Київ, вул. Л.Українки, 22</h4>
+                                <p class="estate__type">Квартира</p>
+                                <p class="estate__price">17 000 грн/місяць</p>
+                            </div>
+                            <div class="estate__info">
+                                <div class="estate__info_item info_item1">
+                                    <img class="estate__info_img" src="../images/bed.svg" alt="bed">
+                                    <span class="estate__info_item_text">2</span>
+                                </div>
+                                <div class="estate__info_item info_item2">
+                                    <img src="../images/shower.svg" alt="shower">
+                                    <span class="estate__info_item_text">1</span>
+                                </div>
+                                <div class="estate__info_item info_item3">
+                                    <img src="../images/size.svg" alt="size">
+                                    <span class="estate__info_item_text">2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="estates__item">
+                        <div class="estate__image estate__image5"></div>
+                        <div class="estate__details">
+                            <div class="estate__details_info">
+                                <h4>м. Ужгород, вул. Мазепи, 41</h4>
+                                <p class="estate__type">Квартира</p>
+                                <p class="estate__price">20 000 грн/місяць</p>
+                            </div>
+                            <div class="estate__info">
+                                <div class="estate__info_item info_item1">
+                                    <img class="estate__info_img" src="../images/bed.svg" alt="bed">
+                                    <span class="estate__info_item_text">2</span>
+                                </div>
+                                <div class="estate__info_item info_item2">
+                                    <img src="../images/shower.svg" alt="shower">
+                                    <span class="estate__info_item_text">1</span>
+                                </div>
+                                <div class="estate__info_item info_item3">
+                                    <img src="../images/size.svg" alt="size">
+                                    <span class="estate__info_item_text">2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="estates__item">
+                        <div class="estate__image estate__image6"></div>
+                        <div class="estate__details">
+                            <div class="estate__details_info">
+                                <h4>м.Київ, вул.М.Залізняка, 29</h4>
+                                <p class="estate__type">Квартира</p>
+                                <p class="estate__price">15 000 грн/місяць</p>
+                            </div>
+                            <div class="estate__info">
+                                <div class="estate__info_item info_item1">
+                                    <img class="estate__info_img" src="../images/bed.svg" alt="bed">
+                                    <span class="estate__info_item_text">2</span>
+                                </div>
+                                <div class="estate__info_item info_item2">
+                                    <img src="../images/shower.svg" alt="shower">
+                                    <span class="estate__info_item_text">1</span>
+                                </div>
+                                <div class="estate__info_item info_item3">
+                                    <img src="../images/size.svg" alt="size">
+                                    <span class="estate__info_item_text">2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="button__explore_next">
+                <div class="next__block next__block_first">Перша</div>
+                <div class="next__block_digit">
+                    <div class="digit digit_one">1</div>
+                    <div class="digit digit_two">2</div>
+                    <div class="digit">3</div>
+                </div>
+                <div class="next__block next__block_second">Наступна</div>
+            </div>
+        </section>
+    </div>
+    <footer class="footer-distributed">
+        <div class="container">
+            <div class="footer__divider"></div>
+            <div class="footer-left">
+                <p><img src="../images/logo.png" alt="">Твій простір</p>
+                
+                <p class="footer-company-name">ТвійПростір © 2024</p>
+            </div>
+    
+            <div class="footer-center">
+    
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span></span>м. Львів, вул.Угорська, 22 (офіс)</p>
+                </div>
+    
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>0663899338</p>
+                </div>
+    
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:support@company.com">yourspace2024@gmail.com</a></p>
+                </div>
+    
+            </div>
+    
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <span>Про компанію</span>
+                    Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+                </p>
+                <div class="footer-icons">
+                    <a href="https://www.facebook.com/?locale=uk_UA"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/?lang=uk"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/home?originalSubdomain=ua"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/"><i class="fa fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer__divider2"></div>
+            <p class="footer-links">
+                <a href="../index.html" class="link-1">Головна</a>
+                <a href="#">Знайти житло</a>
+                <a href="./sell_estate.html">Продати житло</a>
+                <a href="./about.html">Про нас</a>
+            </p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

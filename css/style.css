@@ -1,0 +1,26 @@
+@import "header.css";
+@import "body.css";
+@import "sell_estate.css";
+@import "footer.css";
+@import "about.css";
+
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*, 
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
